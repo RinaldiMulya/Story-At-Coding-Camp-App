@@ -1,0 +1,95 @@
+/* Report Card Styles */
+.report-card {
+  background-color: #02f754;
+  border: 1px solid ;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.report-location {
+  font-weight: bold;
+}
+
+.report-image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.image-placeholder {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #888;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+.report-description {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #333;
+}
+
+.report-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.report-link {
+  color: #0077cc;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.report-link:hover {
+  text-decoration: underline;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #cc0000;
+}
+
+.delete-button:hover {
+  color: #990000;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Tablet: 2 kolom */
+@media screen and (min-width: 640px) {
+  .report-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop: 3 kolom */
+@media screen and (min-width: 1024px) {
+  .report-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* Report Card Styles */

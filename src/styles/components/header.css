@@ -1,0 +1,51 @@
+/*Header Styling  */
+
+.section-subtitle-highlight {
+  display: inline-block;
+  background-color: #e6f2ff; /* biru muda lembut */
+  color: #005fa3;            /* biru teks yang solid */
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.header-report-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+  border-top: 2px solid #030303;
+  border-bottom: 2px solid #030303;
+}
+
+.header-section {
+  flex: 1 1 60%;
+  min-width: 250px;
+}
+
+.section-header {
+  margin-bottom: 24px;
+  text-align: left;
+  padding: 10px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/*Header Styling  */

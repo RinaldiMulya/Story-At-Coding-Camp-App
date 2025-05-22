@@ -1,0 +1,17 @@
+.add-report-button {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.add-report-button:hover {
+  background-color: #005fa3;
+}

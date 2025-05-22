@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Reset dasar dan pengaturan global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font global */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Container layout dasar */
+.container {
+  padding-inline: 32px;
+  margin-inline: auto;
+  max-width: 1300px;
+}
+
+#main-content{
+  margin-top: 40px;
+}

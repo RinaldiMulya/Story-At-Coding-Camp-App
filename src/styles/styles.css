@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "./pages/homepage.css";
+@import "./pages/add-story.css";
+@import "./components/navbar.css";
+@import "./components/button.css";
+@import "./components/header.css";
+@import "./components/report-card.css";
+@import "./layout/base.css";
+@import "./components/maps.css";

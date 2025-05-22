@@ -1,0 +1,276 @@
+/* Container */
+.title-Form{
+
+}
+.judul{
+
+}
+
+.add-story.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+.add-story h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #222;
+  text-align: center;
+}
+
+/* Form layout */
+#story-form div {
+  margin-bottom: 1.25rem;
+}
+
+/* Labels */
+#story-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Text dan input */
+#story-form input[type="text"],
+#story-form textarea,
+#story-form input[type="file"],
+#story-form input[type="number"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+#story-form textarea:focus,
+#story-form input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* File input khusus (optional, agar lebih rapi di browser modern) */
+#photo {
+  padding: 0.5rem;
+  background-color: #f0f0f0;
+}
+
+/* Submit button */
+#story-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#story-form button[type="submit"]:hover {
+  background-color: #1e40af;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  .add-story.container {
+    padding: 1.5rem;
+  }
+
+  #story-form button[type="submit"] {
+    font-size: 0.95rem;
+  }
+}
+
+.add-story {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-story h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-story form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-story form div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.add-story label {
+  font-weight: bold;
+}
+
+.add-story textarea {
+  min-height: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-story input[type="number"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-story button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.add-story button:hover {
+  background-color: #45a049;
+}
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px dashed #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.camera-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#open-camera-btn {
+  background-color: #2196F3;
+}
+
+#open-camera-btn:hover {
+  background-color: #0b7dda;
+}
+
+#capture-photo-btn {
+  background-color: #ff9800;
+}
+
+#capture-photo-btn:hover {
+  background-color: #e68a00;
+}
+
+#retake-photo-btn {
+  background-color: #f44336;
+}
+
+#retake-photo-btn:hover {
+  background-color: #da190b;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .camera-controls {
+    flex-direction: column;
+  }
+}
+
+/* File: styles/pages/add-story.css */
+
+.add-story.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.add-story h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.add-story form > div {
+  margin-bottom: 1.25rem;
+}
+
+.add-story textarea,
+.add-story input[type="number"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.camera-container {
+  position: relative;
+  text-align: center;
+}
+
+#camera-select {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+#camera-preview,
+#captured-photo {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+}
+
+.camera-controls button {
+  margin: 0 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.camera-controls button:hover {
+  background-color: #0056b3;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
